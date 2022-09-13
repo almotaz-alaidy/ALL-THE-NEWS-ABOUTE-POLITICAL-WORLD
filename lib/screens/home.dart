@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:lec/componnents/MySeconedWedgit.dart';
-import 'package:lec/screens/Saudi%20VS%20Yemen.dart';
-import 'package:lec/screens/iran%20war.dart';
-import 'package:lec/screens/pelstine%20vs%20israel.dart';
-import 'package:lec/screens/russia%20vs%20ukrain.dart';
-import 'package:lec/screens/syrian%20war.dart';
 
+import '../componnents/MySeconedWedgit.dart';
 import '../componnents/mywidget.dart';
+import 'Saudi VS Yemen.dart';
+import 'pelstine vs israel.dart';
+import 'russia vs ukrain.dart';
+import 'syrian war.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -97,21 +96,21 @@ class _HomeState extends State<Home> {
               image:
                   "https://ichef.bbci.co.uk/news/2048/cpsprodpb/EF63/production/_105738216_mediaitem88772680.jpg",
             ),
-            Mywidget(
-              OnTap: () {
-                Navigator.push(context, MaterialPageRoute(
-                  builder: (context) {
-                    return Iran();
-                  },
-                ));
-              },
-              MyText: "The war between Iran and many countries",
-              MyTextColor: Colors.black,
-              MyTextFont: "Anton-Regular",
-              MyTextSize: 30,
-              image:
-                  "https://live-production.wcms.abc-cdn.net.au/6e3ff88eb53d9b5c802e436cee10c3f2?impolicy=wcms_crop_resize&cropH=1543&cropW=2322&xPos=0&yPos=77&width=862&height=575",
-            ),
+            // Mywidget(
+            //   OnTap: () {
+            //     Navigator.push(context, MaterialPageRoute(
+            //       builder: (context) {
+            //         return Iran();
+            //       },
+            //     ));
+            //   },
+            //   MyText: "The war between Iran and many countries",
+            //   MyTextColor: Colors.black,
+            //   MyTextFont: "Anton-Regular",
+            //   MyTextSize: 30,
+            //   image:
+            //       "https://live-production.wcms.abc-cdn.net.au/6e3ff88eb53d9b5c802e436cee10c3f2?impolicy=wcms_crop_resize&cropH=1543&cropW=2322&xPos=0&yPos=77&width=862&height=575",
+            // ),
             Divider(
               height: 40,
             ),
